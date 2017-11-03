@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/message.css">
+</head>
+<body>
+<div class="login">
+    <div class="title">提示信息</div>
+    <div class="message">{$message}</div>
+    <p><span>3</span>s之后跳转或点击<a href="{$a}">此处手动跳转</a></p>
+</div>
+<script>
+    let time=3;
+    let span=document.querySelector("span");
+    let t=setInterval(function(){
+        if(time>0){
+            time--;
+            span.innerHTML=time;
+        }
+        else{
+            location.href="{$a}";
+        }
+
+    },1000)
+</script>
+
+</body>
+</html>

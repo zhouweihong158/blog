@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    z-index: 2;
+    background: #fff;
+}
+.hheader{
+    width: 100%;
+    height: 56px;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.left{
+    width: 15%;
+    height: 100%;
+    padding-left:20px;
+    box-sizing: border-box;
+    font-size:26px;
+    color: #da6e51;
+    line-height: 56px;
+    font-weight: bolder;
+    float: left;
+}
+.medium{
+    width:45%;
+    height: 100%;
+    float: left;
+
+}
+.medium ul{
+    width:70%;
+    height: 100%;
+    float: left;
+}
+.medium ul li{
+    font-size: 16px;
+    line-height: 56px;
+    width: 15%;
+    margin-right: 5%;
+    float:left;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #494949;
+    text-align: center;
+}
+.medium ul li a{
+    color: #ec9b88;
+}
+.medium ul li:hover{
+    background: #eeeeee;
+}
+.medium ul li:first-child{
+    width: auto;
+    color: #ec9b88;
+    text-align: left;
+}
+.medium ul li:first-child:hover{
+    background: #fff;
+}
+.medium ul .search{
+    height: 100%;
+    width: 40%;
+    float: left;
+    position: relative;
+}
+.medium ul .search .icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size:20px;
+    font-family: "iconfont";
+}
+.medium ul .search input{
+    margin-top: 9px;
+    border-radius: 19px;
+    height: 38px;
+    width: 100%;
+    background: #eeeeee;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    float:left;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.right .rightul{
+    width: 360px;
+    height: 100%;
+    float: right;
+    padding-top: 9px;
+    box-sizing: border-box;
+}
+.right .rightul .rightli{
+    height:38px;
+    float: left;
+    margin-right: 20px;
+    line-height: 38px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #8a8a8a;
+}
+.right .rightul .rightli:last-child{
+    padding-right: 0px;
+}
+.zhuce{
+    width: 70px;
+    height: 100%;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #dd96a8;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #dd96a8;
+    position: relative;
+}
+.xiala{
+    position: absolute;
+    top:20px;
+    left:0;
+    width:160px;
+    height:370px;
+    display: none;
+    box-shadow: 0 3px 10px  #999;
+    box-sizing: border-box;
+    padding: 22px;
+    background: #fff;
+}
+.zhuce:hover .xiala{
+    display: block;
+}
+.hicon{
+    font-family: "iconfont";
+    color:#ea6f5a;
+    font-size: 16px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+.xialaul{
+    width: 100%;
+    height: 100%;
+
+}
+.xialaul .xialali{
+    width:100%;
+    height:45px;
+    font-size: 14px;
+    line-height: 45px;
+    color:#333333;
+    text-align: left;
+}
+.xiewenzhang{
+    width: 80px;
+    height: 100%;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 18px;
+    background:#ee6c5e;
+    color: #fff1e8;
+}

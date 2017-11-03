@@ -1,0 +1,425 @@
+/*
+* @Author: 20911
+* @Date:   2017-10-21 10:17:26
+* @Last Modified by:   20911
+* @Last Modified time: 2017-10-21 20:39:35
+*/
+.hheader{
+	width: 100%;
+	height: 56px;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+}
+.banner{
+	width: 100%;
+	height: 272px;
+
+}
+.main{
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.bannerleft{
+	width: 64%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.bannerright{
+	width: 36%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.bannerright .bb{
+	width: 100%;
+	height: 50%;
+}
+.bannerright .bb a{
+	width: 100%;
+	height: 100%;
+}
+.bannerright .bb a img{
+	width: 100%;
+	height: 100%;
+}
+.bannerleft a{
+width: 100%;
+height:100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+.bannerleft a img{
+width: 100%;
+height:100%;
+}
+.bjiantou{
+	width: 40px;
+	height: 50px;
+	background: rgba(0,0,0,.4);
+	position: absolute;	
+	font-family: "iconfont";
+	top: 40%;
+	line-height: 50px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	font-weight: bolder;
+}
+.jl{
+	left: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius:10px;
+	display: none; 
+
+}
+.jr{
+	right: 0px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius:10px; 
+	display: none; 
+}
+.main:hover .jl{
+    display:block;
+}
+.main:hover .jr{
+    display:block;
+}
+.fenlei{
+	width: 100%;
+	height: auto;
+}
+main{
+	width:70%;
+	height: auto;
+	margin: 0 auto;
+}
+.fenleileft{
+	width: 64%;
+	height: auto;
+	float:left;
+}
+
+.dushu{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 25px;
+	border-bottom: 1px solid  #999;
+
+}
+.dushu li{
+    height: 34px;
+	background: #f7f7f7;
+    border: 1px solid #dcdcdc;
+	margin-top: 20px;
+	line-height: 32px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.simg{
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+.simg img{
+	width:100%;
+	height:100%;
+}
+.swenzi{
+	height: 32px;
+	padding:0 10px;
+	font-size: 14px;
+	line-height: 32px;
+	color:#333;;
+	float: right;
+}
+.more {
+	height: 34px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 19px;
+	line-height: 34px;
+	display: block;
+	color: #333;
+	font-size: 14px;
+}
+.passage{
+	margin:20px 0;
+	width:100%;
+	height:170px;
+}
+.pleft{
+    width:70%;
+	height:100%;
+	float:left;
+	padding:0 5px;
+	box-sizing: border-box;
+}
+.touxiang{
+    width:100%;
+	height:32px;
+}
+.touxiang img{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	border-radius: 50%;
+	background:green;
+	float:left;
+}
+.touxiang p{
+	float:left;
+	display: inline-block;
+	line-height: 32px;
+	color:#333;
+	font-size: 14px;
+	margin: 0 10px;
+}
+.touxiang span{
+	float: left;
+	display:inline-block;
+	line-height: 32px;
+	color:#666;
+	font-size: 14px;
+}
+.title{
+	font-size: 18px;
+	line-height: 30px;
+	color:#333;
+	margin-top:5px;
+	display: inline-block;
+}
+.title:hover{
+	text-decoration:underline;
+}
+.con{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.dushuo{
+	display: inline-block;
+	padding:5px 10px;
+    font-size: 12px;
+	color:#ea6f5a;
+	border:1px solid #ea6f5a;
+}
+.dushuo:hover{
+	color:#da6f5a;
+	border:1px solid #da6f5a;
+}
+.iconc{
+	font-family:"iconfont";
+	font-size:20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+.chakan{
+	display:inline;
+}
+.num{
+	display: inline-block;
+	margin-left: 5px;
+}
+.pright{
+	width:30%;
+	height:100%;
+	float:left;
+	box-sizing: border-box;
+}
+.prightm{
+	background: blue;
+	width:150px;
+	height:120px;
+	float:right;
+	margin-top: 25px;
+	display: inline-block;
+}
+.prightm img{
+	width:100%;
+	height:100%;
+}
+.read{
+	width:100%;
+	height:40px;
+	background:#a5a5a5;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 30px;
+	margin-bottom:60px;
+}
+.read:hover{
+	background: #7a7a7a;
+}
+footer{
+	width:100%;
+	height: 100px;
+}
+footer ul{
+	width:100%;
+	height:30px;
+}
+footer ul li{
+	font-size: 14px;
+	color:#999;
+	line-height: 30px;
+	float:left;
+	margin-right: 10px;
+}
+footer ul li a{
+	color:#666;
+}
+footer ul li a:hover{
+	color:#333;
+}
+.fright{
+	font-size: 12px;
+	line-height: 18px;
+	color:#999;
+}
+.lianjie{
+	color:#999;
+	display: inline-block;
+}
+.lianjie:hover{
+	color:#333;
+}
+.fenleiright{
+	width: 36%;
+	height: auto;
+	padding-top: 30px;
+	float:right;
+}
+.paihang{
+	width:90%;
+	height:50px;
+	float:right;
+	margin-bottom:6px;
+}
+.paihang img{
+	width: 100%;
+	height:100%;
+}
+.erweima{
+	width:90%;
+	height:82px;
+	padding:10px 22px;
+	border:1px solid #999;
+	box-sizing: border-box;
+	float:right;
+}
+.erweima img{
+	width:60px;
+	height:60px;
+	float:left;
+	margin-right: 5px;
+}
+.erweima .down{
+	font-size: 16px;
+	line-height: 30px;
+}
+.erweima .downb{
+	font-size:14px;
+	line-height: 30px;
+}
+.ribao{
+	width:90%;
+	float: right;
+	margin-top: 20px;
+}
+.ribao .jianli{
+	float:left;
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+	color:#666;
+}
+.ribao .history{
+	float:right;
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+	color:#666;
+}
+.ribao .history:hover{
+	color:#333;
+}
+.ribaocon{
+	width:90%;
+	height:auto;
+	float:right;
+}
+.ribaocon img{
+	width:48px;
+	height:48px;
+	float:left;
+}
+.meet{
+	width:250px;
+	height:48px;
+	float:right;
+	font-size: 16px;
+}
+.meet:hover{
+	text-decoration: underline;
+}
+.meet1{
+	margin-top: 10px;
+	width:90%;
+	height:48px;
+	float:right;
+	font-size: 16px;
+}
+.meet1:hover{
+	text-decoration: underline;
+}
+.touxiang1{
+	width:90%;
+	float:right;
+	height:50px;
+	margin-bottom:20px;
+	position:relative;
+}
+.touxiang1 img{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	border-radius: 50%;
+	background:green;
+	float:left;
+}
+.touxiang1 p{
+	display: inline-block;
+	line-height: 25px;
+	color:#333;
+	font-size: 14px;
+	margin: 0 10px;
+}
+.touxiang1 span{
+	display:inline-block;
+	line-height: 25px;
+	color:#666;
+	font-size: 14px;
+	margin: 0 10px;
+}
+.jiahao{
+	position: absolute;
+	top:5px;
+	right:10px;
+	font-size:16px;
+	color:green;
+}
+.showall{
+	width:90%;
+	float:right;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	border:1px solid #666;
+	
+}

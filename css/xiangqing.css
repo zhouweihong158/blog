@@ -1,0 +1,289 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+.parrages{
+    width:100%;
+    height:auto;
+}
+main{
+    width:50%;
+    height:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title{
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+.author{
+    width:100%;
+    height:50px;
+    margin:40px 0;
+}
+.author img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    float: left;
+    display: inline-block;
+}
+.aut{
+    margin-left: 10px;
+    display: inline-block;
+  font-size: 16px;
+    line-height: 24px;
+}
+.guanzhu{
+    width:50px;
+    height:24px;
+    line-height: 24px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 12px;
+    background: green;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+}
+.time{
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+}
+p{
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 27px;
+    display: block;
+}
+.crc{
+    width:100%;
+    height:30px;
+    margin-bottom: 20px;
+}
+.chuchu{
+    font-size: 14px;
+    line-height: 30px;
+    color:#999;
+    display: inline-block;
+}
+.call{
+    font-size: 14px;
+    color:#999;
+    float:right;
+    margin-right: 20px;
+    display: inline-block;
+}
+.rightq{
+    font-size: 14px;
+    color:#999;
+    float:right;
+    display: inline-block;
+}
+.box{
+    width:100%;
+    height:150px;
+    border:1px solid #999;
+    box-sizing: border-box;
+    padding:0 30px ;
+}
+.author0{
+    width:100%;
+    height:90px;
+    padding:20px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #aaa;
+}
+.author0 img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    float: left;
+    display: inline-block;
+}
+.aut0{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+}
+.guanzhu1{
+    width:90px;
+    height:40px;
+    line-height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 20px;
+    background: green;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+    float:right;
+    font-weight: 400;
+}
+.time1{
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+}
+.weichat{
+    font-size: 12px;
+    line-height: 50px;
+    color:#aaa;
+}
+.thank{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    font-size: 26px;
+    color:#333333;
+    text-align: center;
+}
+.zanshang{
+  width:116px;
+    height:40px;
+    border-radius: 20px;
+    background: #ea6f5a;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 30px;
+}
+.pinglun{
+    width:100%;
+    height:100px;
+}
+.pinglun img{
+    width:40px;
+    height:40px;
+    background: blue;
+    border-radius:50%;
+    margin-top: 10px;
+    float:left ;
+}
+textarea{
+    width:91%;
+    margin-top: 10px;
+    height:80px;
+    resize: none;
+    background:#dcdcdc;
+    float:right;
+    border: 1px solid #999;
+    margin-right: 10px;
+}
+.tijiao{
+    width:200px;
+    height:40px;
+    float:right;
+}
+.nosend {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    float:right;
+}
+.send{
+    width:80px;
+    height: 40px;
+    border-radius: 20px;
+    background: #3db922;
+    line-height: 40px;
+    border:none;
+    outline: none;
+    float:right;
+    margin-right: 20px;
+}
+.talk{
+    width:100%;
+    height:50px;
+    line-height: 100px;
+    float:left ;
+}
+.pl186{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+    float: left;
+}
+.like{
+ display: inline-block;
+    width:300px;
+    height:30px;
+    float: right;
+}
+.like li{
+    float:left;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.pla{
+    margin-top: 10px;
+    float: left;
+    height:50px;
+    width:100%;
+}
+.zan{
+    width:auto;
+    height:30px;
+    float: left;
+}
+.zan li{
+    float:left;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.zan1{
+    width:auto;
+    height:30px;
+    float: right;
+}
+.zan1 li{
+    float:left;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.huifu{
+    width:100%;
+    height:auto;
+    padding:10px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.hf11{
+    width:100%;
+    height:auto;
+    border-left: 2px solid #333;
+    padding: 0 10px;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+.hf{
+    line-height: 20px;
+}
+.timehf{
+    font-size: 12px;
+    line-height: 26px;
+    color:#666;
+    margin-bottom: 10px;
+}
+.req{
+   margin-left:200px;
+}
+.add{
+    font-size: 16px;
+    line-height: 20px;
+}

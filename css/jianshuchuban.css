@@ -1,0 +1,361 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.jianshuchuban{
+    width:100%;
+    height: 110px;
+    background: #b4e4dc;
+    padding:30px 0;
+    box-sizing: border-box;
+}
+main{
+    width:70%;
+    height:auto;
+    /*background:pink;*/
+    margin: 0 auto;
+}
+.logo{
+    width:48px;
+    height: 48px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.title{
+    width:auto;
+    height:48px;
+    display: inline-block;
+}
+.title .logofont{
+    height: 40px;
+    margin-top:4px ;
+    display: inline-block;
+    float: left;
+}
+.unique{
+    margin-left: 20px;
+    line-height: 48px;
+    color: #41867a;
+    display: inline-block;
+    float: right;
+}
+.self{
+    font-size: 16px;
+    width: auto;
+    height: 48px;
+    float: right;
+    color: #47877a;
+    line-height: 48px;
+}
+.icon{
+    font-family: "iconfont";
+}
+.fenleilei{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.fenleileft{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.fenleiright{
+    width: 80%;
+    height: auto;
+   float: left;
+}
+.category{
+    width:100%;
+    height:auto;
+    padding:30px 20px 0;
+    box-sizing: border-box;
+}
+.daohang{
+    font-size: 18px;
+    line-height: 50px;
+    color: #333333;
+}
+.fldh a{
+    width:100%;
+    height:51px;
+    box-sizing: border-box;
+    border-top: 1px solid #f0f0f0;
+    padding: 0 5px;
+    line-height: 50px;
+    color:#41867a;
+    display: block;
+}
+.fldh a:first-of-type{
+    display: none;
+}
+#book{
+    width:100%;
+    height:auto;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.books{
+    width:100%;
+    height: 356px;
+}
+.books li{
+    width:30%;
+    height:100%;
+    border:1px solid #f0f0f0;
+    box-sizing: border-box;
+    margin-right: 5%;
+    float: left;
+    padding:1%;
+    transition: 0.2s;
+}
+.books li:hover{
+    transform:translateY(-3px);
+    box-shadow:0 3px 10px #666;
+}
+.books li:last-child{
+    margin-right: 0;
+}
+.bookimg{
+    width:100%;
+    height:152px;
+    display: block;
+}
+.name{
+   width:100%;
+    height:auto;
+    line-height: 26px;
+    font-size: 16px;
+}
+.author{
+  font-size: 16px;
+    line-height: 30px;
+    color: #9fa19f;
+}
+.intros{
+    height:40px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.quickly{
+    font-size: 14px;
+    color:#41867a;
+    margin-top:30px;
+    display: block;
+}
+#haspublished{
+    width:100%;
+    height:auto;
+}
+.yichuban{
+    width:100%;
+    height:80px;
+    padding:28px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.yileft{
+    width:5px;
+    height:24px;
+    background: #70b6ab;
+    float: left;
+    margin-right: 20px;
+}
+.hasbooks{
+    float:left;
+    display: inline-block;
+    color: #333333;
+    line-height: 24px;
+    font-size: 22px;
+}
+.yichubanul{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+
+}
+.yichubanul li{
+    width:48%;
+    height:264px;
+    margin-right:4%;
+    border:1px solid #f0f0f0;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+    padding:20px;
+    overflow: hidden;
+}
+.yichubanul li:nth-child(2n){
+    margin-right: 0;
+}
+.yichubanul li:hover{
+    transform:translateY(-3px);
+    box-shadow:0 3px 10px #666;
+}
+.crazy{
+    width:125px;
+    height:100%;
+    float: left;
+    display: inline-block;
+}
+.divdiv{
+    padding: 5px;
+    box-sizing: border-box;
+    width:calc(100% - 125px);
+    height: 100%;
+    float: left;
+}
+.dname{
+    width:100%;
+    height:auto;
+    line-height: 26px;
+    font-size: 16px;
+}
+.dauthor{
+    font-size: 16px;
+    line-height: 30px;
+    color: #9fa19f;
+    margin-top: 10px;
+}
+.dintros{
+    height:40px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.dquickly{
+    font-size: 14px;
+    color:#41867a;
+    margin-top:30px;
+    display: block;
+}
+#author{
+    width:100%;
+    height:auto;
+}
+.authoul{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.authorul li{
+    width:48%;
+    height:200px;
+    margin-right:4%;
+    border:1px solid #f0f0f0;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+    padding:20px;
+    overflow: hidden;
+}
+.authorul li a{
+    width:100%;;
+    height: 100%;
+    display: block;
+}
+.authorul li:nth-child(2n){
+    margin-right: 0;
+}
+.authorul li:hover{
+    transform:translateY(-3px);
+    box-shadow:0 3px 10px #666;
+}
+.crazyauthor{
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+}
+.divdivauthor{
+    padding:0 5px;
+    box-sizing: border-box;
+    width:calc(100% - 64px);
+    height: 100%;
+    float: left;
+}
+.authorname{
+  font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.authorauthor{
+    font-size: 14px;
+    line-height: 18px;
+    color: #5a5d5a;
+}
+.authorintros{
+    font-size: 12px;
+    color: #9fa19f;
+    line-height: 30px;
+}
+.leave{
+    font-size: 14px;
+    line-height: 20px;
+    color: #9fa19f;
+}
+.lleave{
+    font-family: "iconfont";
+    font-size: 14px;
+    margin-right: 10px;
+}
+.authorqy{
+   font-size: 14px;
+    color: #5a8f87;
+}
+#xiaoshuo{
+    width:100%;
+    height: auto;
+}
+.xiaoshuoul{
+    width:100%;
+    height: auto;
+}
+.xiaoshuoul li{
+    width:18%;
+    height: 294px;
+    box-sizing: border-box;
+    border: 1px solid #9d9e9d;
+    margin-right: 2.5%;
+    margin-top: 10px;
+    float: left;
+}
+.xiaoshuoul li:nth-child(5n){
+    margin-right: 0;
+}
+.xiaoshuoul li a{
+    width:100%;
+    height:100%;
+    padding:7px 7px 15px;
+    box-sizing: border-box;
+    display: block;
+}
+.xiaoshuoimg{
+    width:100%;
+    height:166px;
+    display: block;
+}
+.xsname{
+    font-size: 16px;
+    line-height: 22px;
+    height:44px;
+    width:100%;
+    color: #333333;
+}
+.authorname{
+    font-size: 14px;
+    height:20px;
+    line-height: 20px;
+}
+.price{
+    font-size: 12px;
+    color:#333;
+}

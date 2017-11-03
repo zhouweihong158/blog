@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_URL}/index.css">
+    <script src="{JS_URL}/index.js"></script>
+</head>
+<body>
+{foreach $list as $v}
+<ul>
+    <li>ID {$v["did"]}</li>
+    <li>名字 {$v["dname"]}</li>
+</ul>
+{/foreach}
+<a href="index.php?m=index&f=lists&a=init">跳转</a>
+</body>
+</html>

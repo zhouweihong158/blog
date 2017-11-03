@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.qianbao{
+    width:100%;
+    height:auto;
+    border-top: 1px solid #efefef;
+}
+main{
+    width:70%;
+    height:auto;
+    margin: 20px auto;
+}
+.imgl{
+    width:100%;
+    height: 200px;
+    padding: 35px 0;
+    box-sizing: border-box;
+}
+.imglul{
+    width: 100%;
+    height: 100%;
+}
+.imglul li{
+    width:33.3%;
+    height:100%;
+    float: left;
+    border-right: 1px solid #efefef;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.imgmine{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: blue;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+.back{
+width: 120px;
+    height:auto;
+    float: left;
+}
+.namea{
+    width:120px;
+    height:auto;
+    display: block;
+    font-size: 22px;
+    line-height: 26px;
+    float: left;
+    margin-bottom: 15px;
+}
+.has{
+color: #adb1af;
+}
+.zhanghu{
+ font-size: 16px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.main_money{
+    font-size: 20px;
+}
+.push{
+   width:100%;
+    height:34px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 34px;
+
+}
+.chongzhi{
+    width:88px;
+    height: 38px;
+    border-radius: 19px;
+    background: #42c12e;
+    margin-right: 10px;
+    float: left;
+    color: #fff;
+    font-size:16px ;
+
+}
+.tian{
+    width:88px;
+    height: 38px;
+    border-radius: 19px;
+    border:1px solid #42c12e;
+    float: left;
+    color: #42c12e;
+    font-size: 16px;
+}
+.no{
+    font-size: 14px;
+    color: #9e9f9e;
+}
+.pl{
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+}
+.ctitle{
+  width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+    height:  70px ;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.ccon{
+    width: 100%;
+    height:  60px ;
+    box-sizing: border-box;
+    padding:15px 20px;
+}
+.time,.state{
+    width:15%;
+    height:100%;
+    float: left;
+}
+.type,.amount{
+    width:10%;
+    height: 100%;
+    float: left;
+}
+.con{
+    width:50%;
+    height:100%;
+    float: left;
+}
+.title .con,.title .amount,.title .type,.title .time{
+    border-right:1px solid pink ;
+    box-sizing: border-box;
+}
+.ccon .amount{
+     color:#42c12e;
+}
